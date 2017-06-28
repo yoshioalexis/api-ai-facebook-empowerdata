@@ -310,6 +310,7 @@ class FacebookBot {
             //             source: "facebook"
             //         }
             //     });
+            //
 
             let apiaiRequest = apiAiService.textRequest(text,
             {
