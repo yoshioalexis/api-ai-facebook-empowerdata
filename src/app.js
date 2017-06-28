@@ -301,15 +301,15 @@ class FacebookBot {
             }
 
             console.log("Text", text);
-            //send user's text to api.ai service
-            // let apiaiRequest = this.apiAiService.textRequest(text,
-            //     {
-            //         sessionId: this.sessionIds.get(sender),
-            //         originalRequest: {
-            //             data: event,
-            //             source: "facebook"
-            //         }
-            //     });
+            send user's text to api.ai service
+            let apiaiRequest = this.apiAiService.textRequest(text,
+                {
+                    sessionId: this.sessionIds.get(sender),
+                    originalRequest: {
+                        data: event,
+                        source: "facebook"
+                    }
+                });
 
             let apiaiRequest = apiAiService.textRequest(text,
             {
