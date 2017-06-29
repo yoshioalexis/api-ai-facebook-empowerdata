@@ -311,6 +311,7 @@ class FacebookBot {
             //         }
             //     });
             //
+            
 
             let apiaiRequest = apiAiService.textRequest(text,
             {
