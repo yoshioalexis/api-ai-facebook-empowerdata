@@ -313,7 +313,7 @@ class FacebookBot {
             //
 
 
-            let apiaiRequest = apiAiService.textRequest(text,
+            let apiaiRequest = apiAiService.textRequest("holaaaa",
             {
                 sessionId: sessionIds.get(sender),
                 contexts: [
