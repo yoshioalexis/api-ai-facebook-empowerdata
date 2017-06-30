@@ -320,7 +320,7 @@ class FacebookBot {
                     {
                         name: "generic",
                         parameters: {
-                            facebook_user_id: sessionId
+                            facebook_user_id: "juanito"
                         }
                     }
                 ]          
