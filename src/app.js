@@ -311,7 +311,7 @@ class FacebookBot {
             //         }
             //     });
             //
-            
+
 
             let apiaiRequest = apiAiService.textRequest(text,
             {
@@ -320,12 +320,11 @@ class FacebookBot {
                     {
                         name: "generic",
                         parameters: {
-                            facebook_user: userName
+                            facebook_user_id: sender
                         }
                     }
-                ]
+                ]          
             });
-
             this.doApiAiRequest(apiaiRequest, sender);
         }
     }
