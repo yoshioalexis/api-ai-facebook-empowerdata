@@ -320,6 +320,7 @@ class FacebookBot {
                             facebook_user: userName
                         }
                     }
+                    ]
                 });
             this.doApiAiRequest(apiaiRequest, sender);
         }
