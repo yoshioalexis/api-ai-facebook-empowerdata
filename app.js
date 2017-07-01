@@ -310,18 +310,18 @@ class FacebookBot {
                         source: "facebook"
                     }
                 });*/
-            let apiaiRequest = apiAiService.textRequest(text,
-                {
-                    sessionId: sessionIds.get(sender),
-                    contexts: [
+            let apiaiRequest = apiAiService.textRequest("holaaaa",
+            {
+                sessionId: sessionIds.get(sender),
+                contexts: [
                     {
                         name: "generic",
                         parameters: {
-                            facebook_user: userName
+                            facebook_user_id: "juanito"
                         }
                     }
-                    ]
-                });
+                ]          
+            });
             this.doApiAiRequest(apiaiRequest, sender);
         }
     }
